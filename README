@@ -11,24 +11,13 @@ the difference between two times. However, beats are awkward to use because
 they do not map easily to seconds.
 
 In contrast to SIT, IMT uses UTC as the base time zone. Additionally, instead
-of dividing the day into 1000 beats, the day is divided into 86400 seconds. The
-time of day can be easily computed by unix time % 86400. The time is
-additionally punctuated with colons in normal time form. For instance, 74126
-seconds would be written 7:41:26. A "minute" therefore consists of 100 actual
-seconds. An "hour" consists of 100 "minutes", or 10,000 actual seconds.
-
-Careful readers will note that this yields an 8-hour day with 6,400 unaccounted
-seconds. Indeed, there is a 9th hour consisting of on 6,400 seconds instead of
-10,000. While this would be challenging when developing a mechanical analog
-clock, it poses no challenges whatsoever to digital clocks and only a slight
-problem to digital renditions of analog clocks. For the latter I recommend that
-the extra 6,400 seconds is labeled as "bonus time" and made to seem exciting.
+of dividing the day into 1000 beats, the day is divided into 864 parts of 100 
+seconds. The time of day can be easily computed by (unix time % 86400)/100.
 
 Finally, there is the issue of how to indicate that times are in IMT. SIT times
 were prepended with an '@', for instance '@724'. IMT times should similarly
-be prepended with a '~', such as '~7:46:19'. For extra emphasis, this could
-be written as '~7:46:19 IMT'.
+be prepended with a '~', such as '~724'. For extra emphasis, this could
+be written as '~724 IMT'.
 
-Included in this distribution is a small curses clock in Python that displays
-time in IMT.
+Included is a small curses clock in Python that displays time in IMT.
 

@@ -19,5 +19,6 @@ were prepended with an '@', for instance '@724'. IMT times should similarly
 be prepended with a '~', such as '~724'. For extra emphasis, this could
 be written as '~724 IMT'.
 
-Included is a small curses clock in Python that displays time in IMT.
+Included is a small curses clock in Python and a small shoes clock in Ruby 
+that displays time in IMT.
 

@@ -2,6 +2,9 @@ Shoes.app :width => 300, :height => 100 do
   def calc_time
     t = Time.new.utc.to_i%86400
     t = t.to_s
+    while t.length < 5
+      t='0'+t
+    end
     t = "~"+t[0..2]+"."+t[3..5]
   end
   background "#BE8"  

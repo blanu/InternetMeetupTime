@@ -12,8 +12,8 @@ if __name__=='__main__':
     sec=int(time.time())
     esec=sec%86400
     s=str(esec)
-#    while len(s)<5:
-#      s='0'+s
+    while len(s)<5:
+      s='0'+s
     h=s[:1]
     m=s[1:3]
     s=s[3:]

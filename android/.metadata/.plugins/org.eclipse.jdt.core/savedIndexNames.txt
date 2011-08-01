@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/Users/ischooluser/android/.metadata/.plugins/org.eclipse.jdt.core
+99612671.index
+779662082.index

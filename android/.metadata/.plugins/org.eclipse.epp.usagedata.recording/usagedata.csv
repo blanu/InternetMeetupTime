@@ -1,0 +1,11 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.m2e.discovery,1.0.0.20110607-2117,"org.eclipse.m2e.discovery",1312156457359
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.0.20110607-2117,"org.eclipse.m2e.refactoring",1312156457381
+stopped,bundle,org.eclipse.m2e.editor,1.0.0.20110607-2117,"org.eclipse.m2e.editor",1312156457425
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.0.20110607-2117,"org.eclipse.m2e.editor.xml",1312156457425
+stopped,bundle,org.eclipse.m2e.jdt,1.0.0.20110607-2117,"org.eclipse.m2e.jdt",1312156457427
+stopped,bundle,org.eclipse.m2e.launching,1.0.0.20110607-2117,"org.eclipse.m2e.launching",1312156457470
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.0.20110607-2117,"org.eclipse.m2e.usagedata",1312156457470
+stopped,bundle,com.android.ide.eclipse.adt,12.0.0.v201106281929-138431,"com.android.ide.eclipse.adt",1312156457470
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1312156457481
+stopped,bundle,org.eclipse.help.ui,3.5.100.v20110425,"org.eclipse.help.ui",1312156457497

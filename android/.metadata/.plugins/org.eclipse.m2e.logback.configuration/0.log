@@ -44,3 +44,5 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188) ~[netty-3.2.4.Final.jar:na]
 	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.doConnect(NettyAsyncHttpProvider.java:836) ~[async-http-client-1.6.3.jar:na]
 	... 15 common frames omitted
+2011-08-01 21:19:41,416 [Worker-14] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo1.maven.org/maven2
+2011-08-01 21:20:21,292 [Worker-14] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|http://repo1.maven.org/maven2 in 39880 ms

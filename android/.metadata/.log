@@ -612,3 +612,28 @@ java.lang.NumberFormatException: Color value '@drawable/widget_bg_normal' must s
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2011-07-31 18:22:55.552
 !MESSAGE main.xml: You must supply a layout_height attribute.
+!SESSION 2011-08-01 11:02:45.411 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ischooluser/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ischooluser/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-08-01 11:03:05.868
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-01 21:23:48.722
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-01 21:23:48.978
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-01 21:24:01.970
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-01 21:24:02.161
+!MESSAGE AndroidManifest: Ignoring unknown '!' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-01 21:24:02.369
+!MESSAGE AndroidManifest: Ignoring unknown 'android:background' XML element

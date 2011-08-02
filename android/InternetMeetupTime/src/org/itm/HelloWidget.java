@@ -1,8 +1,5 @@
 package org.itm;
 
-//import java.text.DateFormat;
-//import java.text.SimpleDateFormat;
-//import java.util.Locale;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -27,7 +24,6 @@ public class HelloWidget extends AppWidgetProvider
 		RemoteViews remoteViews;
 		AppWidgetManager appWidgetManager;
 		ComponentName thisWidget;
-//		DateFormat format = SimpleDateFormat.getTimeInstance(SimpleDateFormat.MEDIUM, Locale.getDefault());
 		
 		public MyTime(Context context, AppWidgetManager appWidgetManager)
 		{
@@ -39,10 +35,18 @@ public class HelloWidget extends AppWidgetProvider
 		@Override
 		public void run()
 		{
-//			remoteViews.setTextViewText(R.id.widget_textview, format.format(new Date()));
 			long now=new Date().getTime();
 			double itm=(Math.floor(now/1000)%86400)/100;
-			String nows="~"+new Double(itm).toString();
+			String nows=new Double(itm).toString();
+			if(nows.length()<nows.indexOf('.')+3)
+			{
+				nows=nows+"0";
+			}
+			while(nows.length()<6)
+			{
+				nows="0"+nows;
+			}
+			nows="~"+nows;
 			remoteViews.setTextViewText(R.id.widget_textview, nows);
 			appWidgetManager.updateAppWidget(thisWidget, remoteViews);
 		}

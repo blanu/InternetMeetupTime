@@ -1,1 +1,4 @@
 *.pyc
+android/.metadata
+.DS_Store
+
